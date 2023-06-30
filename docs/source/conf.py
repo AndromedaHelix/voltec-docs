@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'voltec-docs'
+project = 'Voltec Docs'
 copyright = '2023, Juan Pablo Gutierrez'
 author = 'Juan Pablo Gutierrez'
 release = '1.0'
