@@ -14,12 +14,6 @@ This documentation has the following purposes:
    #. Be a simple, quick and effective way for new team members to understand the engineering process behind our robots
    #. Provide other teams with first-hand insight into Team 6647's robots and internal logistics
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-
-
 Indices and tables
 ==================
 
