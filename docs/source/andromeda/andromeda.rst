@@ -9,17 +9,17 @@ AndromedaLib is a library designed for making FRC programming far easier than be
 For example, lets revisit how a CANSparkMax object is created using WPILIB's standard library: 
 
 .. code-block:: java
+
     public class Robot extends TimedRobot {
         CANSparkMax spark1 = new CANSparkMax(2, MotorType.kBrushless);
-            
+
         @Override
         public void robotInit(){
             spark1.setInverted(true);
             spark1.setSmartCurrentLimit(40);
-            spark1.burnFlash();
+            spark1.burnFlash();                
         }
     }
-
 
 As you can see, there are several steps involved in creating and modifying how a specific motor works and interacts with the rest of the robot. Now, imagine having more than 10 motors being used, each would need to be defined and initialized in several lines, leading to bulky, unnecesary code. 
 
