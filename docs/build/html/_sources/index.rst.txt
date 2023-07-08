@@ -8,6 +8,12 @@ Welcome to voltec-docs's documentation!
 
 **VOLTEC Robotics** is a team from Monterrey, Nuevo León México
 
+This documentation has the following purposes:
+
+   #. Maintain and keep a record of Team 6647 VOLTEC Robotics's robot progress throughout its generations
+   #. Be a simple, quick and effective way for new team members to understand the engineering process behind our robots
+   #. Provide other teams with first-hand insight into Team 6647's robots and internal logistics
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
