@@ -16,7 +16,7 @@ This documentation has the following purposes:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Starting out:
 
    andromeda/andromeda
    
