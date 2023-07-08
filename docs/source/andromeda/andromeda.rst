@@ -10,11 +10,8 @@ For example, lets revisit how a CANSparkMax object is created using WPILIB's sta
 
 .. tabs::
 
-    .. group-tab:: Java
-
-        .. code-block:: java
-
-         public class Robot extends TimedRobot {
+    .. code-block:: java
+        public class Robot extends TimedRobot {
             CANSparkMax spark1 = new CANSparkMax(2, MotorType.kBrushless);
             
             @Override
@@ -32,11 +29,9 @@ This is were AndromedaLib functions best. It includes many wrappers that allow m
 
 .. tabs::
 
-    .. group-tab:: Java
+    .. code-block:: java
 
-        .. code-block:: java
-
-         public class Robot extends TimedRobot {
+        public class Robot extends TimedRobot {
             SuperSparkMax superSpark1 = new SuperSparkMax(3, GlobalIdleMode.Coast, true, 40);
 
             @Override
