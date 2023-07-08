@@ -20,9 +20,3 @@ This documentation has the following purposes:
 
    andromeda/andromeda
    
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

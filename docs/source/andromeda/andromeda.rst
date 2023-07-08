@@ -1,2 +1,3 @@
-AndromedaLib documentation
-=======================================
+AndromedaLib
+============
+
