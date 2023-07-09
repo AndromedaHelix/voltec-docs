@@ -15,9 +15,15 @@ This documentation has the following purposes:
    #. Provide other teams with first-hand insight into Team 6647's robots and internal logistics
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Starting out:
 
    programming/introprogramming.rst
    cad/cadintro
+   
+.. toctree::
+   :maxdepth: 1
+   :caption: Past Robots:
+
+   robots/robots.rst
    
