@@ -16,13 +16,8 @@ This documentation has the following purposes:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Starting out:
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   programming/introprogramming.rst
+   cad/cadintro
+   

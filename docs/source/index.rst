@@ -18,5 +18,6 @@ This documentation has the following purposes:
    :maxdepth: 2
    :caption: Starting out:
 
-   andromeda/andromeda
+   programming/introprogramming.rst
+   cad/cadintro
    
