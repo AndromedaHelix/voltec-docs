@@ -4,6 +4,10 @@ AndromedaLib
 What is AndromedaLib?
 ---------------------
 
+**Cheatsheet**
+
+https://sphinx-tutorial.readthedocs.io/cheatsheet/
+
 AndromedaLib is a library designed for making FRC programming far easier than before. Why? Because it includes many wrappers around many of WPILIB's classes to manage hardware.
 
 For example, lets revisit how a CANSparkMax object is created using WPILIB's standard library: 
