@@ -18,7 +18,7 @@ git clone https://github.com/VOLTEC6647/voltec-docs.git
 
 2. Go to the project directory
 ```bash
-cd Robo-Almacen
+cd voltec-docs
 ```
 
 3. Install dependencies
