@@ -9,3 +9,28 @@ Official VOLTEC Robotics Documentation
 <a href="https://github.com/andromedahelix/voltec-docs/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=andromedahelix/voltec-docs" />
 </a>
+
+# Installation
+1. Clone the repository
+```bash
+git clone https://github.com/VOLTEC6647/voltec-docs.git
+```
+
+2. Go to the project directory
+```bash
+cd Robo-Almacen
+```
+
+3. Install dependencies
+For MacOS
+```bash
+pip3 install -U sphinx 
+pip3  install sphinx sphinx_rtd_theme
+```
+
+4. Make changes
+
+5. Build HTML
+```bash
+make html
+```
