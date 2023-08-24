@@ -8,6 +8,7 @@ Here are some useful resources:
    :caption: Programming content:
 
    andromeda/andromeda
+   java/setup
    java/introjava
    java/ciclos
    java/funciones

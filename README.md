@@ -31,6 +31,13 @@ pip3  install sphinx sphinx_rtd_theme
 4. Make changes
 
 5. Build HTML
+
+Make sure you are in the docs path
+```bash
+cd docs
+```
+
+Build HTML
 ```bash
 make html
 ```

@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Intro to Java &mdash; Voltec Docs 1.0 documentation</title>
+  <title>Programming and setup &mdash; Voltec Docs 1.0 documentation</title>
       <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -19,8 +19,8 @@
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Loops and Flow Control" href="ciclos.html" />
-    <link rel="prev" title="Programming and setup" href="setup.html" /> 
+    <link rel="next" title="Intro to Java" href="introjava.html" />
+    <link rel="prev" title="AndromedaLib" href="../andromeda/andromeda.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -46,8 +46,12 @@
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../introprogramming.html">Programming basics</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="../andromeda/andromeda.html">AndromedaLib</a></li>
-<li class="toctree-l2"><a class="reference internal" href="setup.html">Programming and setup</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Intro to Java</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Programming and setup</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#overview">Overview</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#installation">Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="introjava.html">Intro to Java</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ciclos.html">Loops and Flow Control</a></li>
 <li class="toctree-l2"><a class="reference internal" href="funciones.html">Functions</a></li>
 <li class="toctree-l2"><a class="reference internal" href="objetos.html">Object Oriented Programming</a></li>
@@ -76,9 +80,9 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="../introprogramming.html">Programming basics</a></li>
-      <li class="breadcrumb-item active">Intro to Java</li>
+      <li class="breadcrumb-item active">Programming and setup</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../../_sources/programming/java/introjava.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../../_sources/programming/java/setup.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -86,16 +90,54 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="intro-to-java">
-<h1>Intro to Java<a class="headerlink" href="#intro-to-java" title="Permalink to this heading"></a></h1>
+  <section id="programming-and-setup">
+<h1>Programming and setup<a class="headerlink" href="#programming-and-setup" title="Permalink to this heading"></a></h1>
+<section id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this heading"></a></h2>
+<p><strong>What is programming?</strong></p>
+<p>Programming is the process of designing and writing a program that, after the compilation process, can be read and executed by a computer in order to obtain some specific result or perform some specialized task.</p>
+<p><strong>What is java?</strong></p>
+<p>Java is an object-oriented programming language that produces software for multiple platforms.</p>
+<p><strong>How do to begin?</strong></p>
+<p>To begin programming, we first need a tool to write our code. There are several IDE (Integrated Development Environment) that we can use to write our code. However, we will be using a code editor named Visual Studio Code, which is used widely by many programmers.
+Aditionally, we will need to instal the Java Development Kit (JDK) in order to develop, test and run java programs.</p>
+</section>
+<section id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this heading"></a></h2>
+<p><strong>JDK</strong></p>
+<p>Go to:
+<a class="reference external" href="https://www.oracle.com/mx/java/technologies/downloads/#jdk20">https://www.oracle.com/mx/java/technologies/downloads/#jdk20</a></p>
+<p>Select your operating system and download the JDK.</p>
+<a class="reference internal image-reference" href="../../_images/JDK.png"><img alt="../../_images/JDK.png" src="../../_images/JDK.png" style="width: 300px; height: 200px;" /></a>
+<p>To verify that the JDK was installed correctly, open a terminal(Mac)/command prompt(Windows) and type the following command:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>java<span class="w"> </span>-version
+</pre></div>
+</div>
+<p>If the JDK was installed correctly, you will see a similar message:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>java<span class="w"> </span>version<span class="w"> </span><span class="s2">&quot;18.0.2&quot;</span><span class="w"> </span><span class="m">2022</span>-07-19
+</pre></div>
+</div>
+<a class="reference internal image-reference" href="../../_images/JDKTerminal.png"><img alt="../../_images/JDKTerminal.png" src="../../_images/JDKTerminal.png" style="width: 500px; height: 200px;" /></a>
+<p><strong>VSCode</strong>
+Go to:
+<a class="reference external" href="https://code.visualstudio.com/download">https://code.visualstudio.com/download</a></p>
+<p>Download the version that corresponds to your operating system.</p>
+<p>Once it is downloaded, go to the extensions section to install the following tools:</p>
+<ul class="simple">
+<li><p>Extension Pack for java</p></li>
+<li><p>Debugger for java</p></li>
+<li><p>Test runner for java</p></li>
+</ul>
+<a class="reference internal image-reference" href="../../_images/Extensions.png"><img alt="../../_images/Extensions.png" src="../../_images/Extensions.png" style="width: 600px; height: 400px;" /></a>
+</section>
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="setup.html" class="btn btn-neutral float-left" title="Programming and setup" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="ciclos.html" class="btn btn-neutral float-right" title="Loops and Flow Control" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../andromeda/andromeda.html" class="btn btn-neutral float-left" title="AndromedaLib" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="introjava.html" class="btn btn-neutral float-right" title="Intro to Java" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
